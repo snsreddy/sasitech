@@ -1,0 +1,53 @@
+App Development Rules for Sasitech
+
+Code Consistency:
+Follow a consistent coding style throughout the project.
+Use appropriate naming conventions for variables, functions, classes, and files.
+Avoid hardcoding values; use configuration files or constants instead.
+Ensure that code is well-documented with meaningful comments and documentation.
+
+Version Control:
+Use Git for version control, with feature branches for each new feature or bug fix.
+Commit small, logical changes frequently with clear and descriptive commit messages.
+Follow the Git branching model: main for production-ready code, develop for integration, and feature branches like feature/feature-name for development.
+
+Code Review:
+All code changes must be reviewed by at least one team member before being merged into the develop or main branch.
+Address all comments and suggestions from the code review process.
+Follow best practices for clean, readable, and maintainable code.
+
+Testing:
+Write unit tests for all new code to ensure functionality and reliability.
+Conduct integration testing to verify that modules work together as expected.
+Perform manual testing and peer testing to catch edge cases and unexpected behavior.
+
+Error Handling:
+Implement proper error handling in code to manage unexpected failures gracefully.
+Avoid generic error messages; provide detailed information to help debug issues.
+Log errors with sufficient details for easier troubleshooting and analysis.
+
+Performance Optimization:
+Optimize code for performance, especially in critical areas.
+Minimize the use of unnecessary computations and optimize algorithms where possible.
+Avoid premature optimization; focus on readable code first, then optimize if necessary.
+
+Security Standards:
+Follow secure coding practices to protect against common vulnerabilities (e.g., SQL injection, cross-site scripting).
+Sanitize and validate all user inputs to prevent security threats.
+Ensure that sensitive data is encrypted and stored securely.
+
+Documentation:
+Document all APIs, endpoints, and data models with clear explanations.
+Provide a clear setup guide and instructions for building and running the app.
+Maintain an up-to-date changelog with information on new features, bug fixes, and changes.
+
+Collaboration and Communication:
+Use a project management tool to track tasks, bugs, and progress.
+Communicate regularly with team members regarding project updates and issues.
+Ensure all team members have access to relevant documentation, code, and resources.
+
+Deployment:
+Use automated deployment pipelines to deploy code to development, staging, and production environments.
+Ensure the app is thoroughly tested before deployment to production.
+Follow a rollback strategy in case of issues during deployment.
+These rules can be tailored or expanded based on your specific project requirements and team preferences. Implementing these guidelines will help improve productivity, reduce bugs, and ensure that the codebase remains clean and maintainable.
